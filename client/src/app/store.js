@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-
+import userReducer from '../features/userSlice';
 import {
     
     persistReducer,
@@ -18,7 +18,7 @@ const persistConfig = {
     storage,
     version: 1,
 };
-const persistedReducer = persistReducer(persistConfig);
+const persistedReducer = persistReducer(persistConfig,userReducer);
 
 export default configureStore({
     reducer: persistedReducer,
