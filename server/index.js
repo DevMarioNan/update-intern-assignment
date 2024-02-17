@@ -13,6 +13,16 @@ import userRoutes from './routes/user.js';
 import taskRoutes from './routes/task.js';
 
 
+//custom middlewares
+import authenticateToken from './middleware/authenticateToken.js';
+
+//routes
+import authRoutes from './routes/auth.js';
+import cardsRoutes from './routes/cards.js';
+import userRoutes from './routes/user.js';
+import taskRoutes from './routes/task.js';
+
+
 //configurations
 const app = express();
 const PORT = process.env.PORT || 3000;
