@@ -6,7 +6,7 @@ import {
     getUserTasks
 } from "../controllers/task.js";
 
-import authenticateToken from '../middlewares/authenticateToken.js';
+import authenticateToken from '../middleware/authenticateToken.js';
 
 const router = Express.Router();
 
