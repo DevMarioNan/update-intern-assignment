@@ -9,7 +9,7 @@ To run the project locally, follow these steps:
 1. **Clone the Project:**
    ```bash
    git clone https://github.com/DevMarioNan/update-intern-assignment.git
-   cd Update-assignment
+   cd update-intern-assignment
    ```
 
 2. **Run the Client:**
