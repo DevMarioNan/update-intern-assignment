@@ -1,7 +1,9 @@
 import LoginPage from './scenes/LoginPage'
-
-import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import HomePage from './scenes/HomePage'
+import { BrowserRouter , Routes , Navigate , Route } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 function App() {
+  const isAuth = useSelector((state) => state.user);
 
 
   return (
@@ -10,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LoginPage />} />
+          <Route path="/home" element={isAuth ? <HomePage /> : <Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     </div>
