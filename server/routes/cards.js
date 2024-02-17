@@ -1,5 +1,5 @@
 import Express from 'express';
-import authenticateToken from '../middlewares/authenticateToken.js';
+import authenticateToken from '../middleware/authenticateToken.js';
 import {
     getCards,
     createCard,
