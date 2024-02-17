@@ -7,7 +7,8 @@ const Footer = () => {
                 position: "fixed",
                 bottom: 0,
                 top: "auto",
-                backgroundColor: "#1f3747"
+                backgroundColor: "#1f3747",
+                
             }}>
             <Container >
                 <Toolbar>
