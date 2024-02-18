@@ -17,6 +17,10 @@ To run the project locally, follow these steps:
      ```bash
      cd client
      ```
+   - Install the frontend dependencies:
+     ```bash
+     npm i
+     ```
    - Run the development server:
      ```bash
      npm run dev
@@ -35,6 +39,10 @@ To run the project locally, follow these steps:
      ```
 
 4. **Run the Server:**
+   - Install the backend dependencies:
+     ```bash
+     npm i
+     ```
    - Run the development server:
      ```bash
      npm run dev
